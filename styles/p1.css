@@ -1,0 +1,388 @@
+.body--container { margin-top: 50px; }
+.vector-img-l {
+    position: absolute;
+    left: 0;
+    top: 260px;
+}
+.vector-img-r {
+    position: absolute;
+    right: 0;
+    top: 160px;
+}
+.body--data-container {  position: relative; }
+.data--img2 {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.data--img1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.data--img3 {
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+    z-index: -1;
+}
+.body--data-title { max-width: 400px; }
+.body--data-title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+}
+.body--card-title-imgs {
+    display: flex;
+    margin-top: 50px;
+    grid-column-gap: 11px;
+}
+.body--card-title-img {
+    border: 1px solid #009DE2;
+    border-radius: 10px;
+}
+.body--card-title-img:nth-child(2),
+.body--card-title-img:nth-child(3) { opacity: 0.10; }
+.body--card-title-img img { border-radius: 12px; }
+.body--btn-container {
+    margin-top: 50px;
+    display: flex;
+    grid-column-gap: 20px;
+}
+
+
+.body--entry_title-container {
+    padding-top: 170px;
+}
+.body--entry_title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.body--entry-cards {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 39px;
+}
+.entry--card-container { margin: 40px 0px 80px 0px; }
+.entry--card-container-img { position: relative; }
+.entry--card-container-img img { border-radius: 20px; }
+.entry--card-title {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.entry--card-age {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.entry--card-container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    grid-column-gap: 93px;
+}
+.entry--card-container-nav p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+}
+.entry--card-soon {
+    width: 407px;
+    height: 250px;
+    border: 2px solid #009DE2;
+    border-radius: 10px;
+}
+.entry--card-soon p {
+    text-align: center;
+    margin: auto;
+    margin-top: 17%;
+    max-width: 150px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+
+.body--slider-container {
+    margin-top: 120px;
+    position: relative;
+}
+.body--slider-container button { margin-top: 60px; }
+.body--slider-circle1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.body--slider-circle2 {
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.body--slider-circle3 {
+    position: absolute;
+    top: 0px;
+    right: -70px;
+    z-index: 1;
+}
+.body--slider-circle4 {
+    position: absolute;
+    top: 350px;
+    right: 400px;
+}
+.body--slider-txt { max-width: 635px; }
+.body--slider-txt h2:nth-child(1) {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.body--slider-txt p:nth-child(2) {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+.body--slider-txt p:nth-child(3) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.body--slider-nav {
+    margin-top: 166px;
+    display: flex;
+    grid-column-gap: 32px;
+}
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #009DE2;
+    border-radius: 50%;
+}
+/* .radio-container:hover input ~ .checkmark { background-color: #009DE2; } */
+/* .radio-container input:checked ~ .checkmark { background-color: none; } */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.radio-container input:checked ~ .checkmark:after { display: block; }
+.radio-container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #009DE2;
+}
+
+.body--gift_training-container {
+    background: url("/assets/img/background_candy.png");
+    height: 1153px;
+    position: relative;
+    padding-top: 367px;
+    margin-top: 86px;
+}
+.body--gift_training-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.body--gift_training-form-container {
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(150px);
+    padding: 80px 0px 90px 0px;
+}
+.body--gift_training-form-container { margin-top: 40px; }
+.body--gift_training-form-inputs {
+    display: flex;
+    grid-column-gap: 40px;
+    margin-top: 60px;
+}
+
+.body--educators-container {
+    margin-top: 120px;
+}
+.body--body--educators-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.body--educators{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 105px 0px 105px;
+}
+.body--educator1 {
+    text-align: center;
+    max-width: 300px;
+}
+.body--educator1 p { margin-top: 16px; }
+.body--educator1 img {
+    border-radius: 50%;
+    border: 10px solid #fcc200;
+}
+.body--educator2 {
+    text-align: center;
+    max-width: 300px;
+}
+.body--educator2 p { margin-top: 16px; }
+.body--educator2 img {
+    border-radius: 50%;
+    border: 10px solid #5e4e9b;
+}
+.body--educator3 {
+    text-align: center;
+    max-width: 300px;
+}
+.body--educator3 p { margin-top: 16px; }
+.body--educator3 img {
+    border-radius: 50%;
+    border: 10px solid #e4310e;
+}
+.body--educators div:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    background: #76B82A;
+    border-radius: 50%;
+    position: relative;
+}
+.body--educators div:nth-child(1) img {
+    position: absolute;
+    top: 37px;
+    left: 40px;
+}
+.body--educators div:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    background: #00953F;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+.body--educators div:nth-child(5) {
+    width: 50px;
+    height: 50px;
+    background: #E4310E;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+.body--educators div:nth-child(7) {
+    width: 100px;
+    height: 100px;
+    background: #009DE2;
+    border-radius: 50%;
+    position: relative;
+}
+.body--educators div:nth-child(7) img {
+    position: absolute;
+    top: 37px;
+    left: 45px;
+}
+
+.body--training_selection-container {
+    background: url('/assets/img/i7.png') no-repeat;
+    margin-top: 62px;
+    height: 1441px;
+    padding-top: 310px;
+    position: relative;
+}
+.body--training_selection-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.body--training_selection-form-container {
+    margin-top: 43px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(150px);
+}
+.body--training_selection-form-container h1 { max-width: 662px; }
+.body--training_selection-form {
+    padding: 120px 0px 120px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.body--training_selection-form-inputs { width: 400px; }
+.body--training_selection-form-inputs input { margin-bottom: 25px; }
+.body--trainint_selection-img1 {
+    position: absolute;
+    bottom: 100px;
+}
+.body--trainint_selection-img2 {
+    position: absolute;
+    top: 590px;
+    left: 50px;
+}
+.body--trainint_selection-img3 {
+    position: absolute;
+    right: 207px;
+    top: 350px;
+}
+.body--trainint_selection-img4 {
+    position: absolute;
+    right: 0;
+    top: 430px;
+    z-index: 1;
+}
+.body--trainint_selection-img5 {
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+}
+
+.body--contacts-container {
+    margin-top: 0;
+}
+.body--contacts-container img {
+    width: 100%;
+}
+.body--contacts-title {
+    margin-bottom: 30px !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}

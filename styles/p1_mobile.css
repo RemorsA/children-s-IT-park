@@ -1,0 +1,182 @@
+
+@media screen and (max-width: 425px ) {
+    .vector-img-l { display: none !important; }
+    .vector-img-r { display: none !important; }
+    .body--card-title-imgs { display: none !important; }
+    .body--data-container { padding: 0px 24px 0px 24px }
+    .body--slider-circle1 { display: none !important; }
+    .body--slider-circle3 { display: none !important; }
+    .body--slider-circle4 { display: none !important; }
+    .entry--card-container-img img { width: 377px; }
+    .entry--card-soon { width: 377px; }
+    .body--slider-txt h2:nth-child(1) { font-size: 24px; }
+    .body--slider-txt p:nth-child(2) { font-size: 20px; }
+    .body--slider-txt p:nth-child(3) { font-size: 16px; }
+    .body--educator2 { display: none !important; }
+    .body--educator3 { display: none !important; }
+    .body--gift_training-form-inputs input { margin-bottom: 30px; }
+    .body--gift_training-form { padding: 0px 24px 0px 24px; }
+    .body--gift_training-form h1 { font-size: 20px; }
+    .body--gift_training-form-inputs { display: block !important; }
+    .body--educators div:nth-child(3) { display: none !important; }
+    .body--educators div:nth-child(5) { display: none !important; }
+    .body--trainint_selection-img1 { display: none !important; }
+    .body--trainint_selection-img3 { display: none !important; }
+    .body--trainint_selection-img4 { display: none !important; }
+    .body--trainint_selection-img5 { display: none !important; }
+
+    .body--entry_title-container {
+        padding: 0px 24px 0px 24px;
+        margin-top: 60px !important;
+    }
+    .body--data-title h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 32px;
+        width: 183px;
+    }
+    .data--img2 {
+        position: absolute;
+        right: 10px !important;
+        top: -30px !important;
+        width: 49px;
+        height: 49px;
+    }
+    .data--img3 {
+        position: absolute;
+        top: 68px !important;
+        left: 250px;
+        z-index: -1;
+        width: 49px;
+        height: 49px;
+    }
+    .data--img1 {
+        position: absolute;
+        top: -40px;
+        right: 20px;
+        z-index: 1;
+        width: 143.79px;
+        height: 162px;
+    }
+    .body--slider-container {
+        padding: 0px 24px 0px 24px;
+        margin-top: 60px;
+    }
+    .body--slider-nav {
+        margin-top: 21px;
+        justify-content: center;
+    }
+    .body--gift_training-container {
+        margin-top: 60px;
+        padding: 0;
+        height: 527px;
+    }
+    .body--gift_training-title {
+        font-size: 24px;
+        padding: 0px 24px 0px 24px;
+    }
+    .body--educators-container {
+        margin-top: 360px;
+        padding: 0px 24px 0px 24px;
+    }
+    .body--body--educators-title {
+        font-size: 24px;
+    }
+    .body--educators {
+        width: 100%;
+        padding: 0;
+    }
+    .body--educator1 img {
+        width: 134px;
+    }
+    .body--educators div:nth-child(1) {
+        width: 50px;
+        height: 50px;
+        background: #76B82A;
+        border-radius: 50%;
+        position: relative;
+    }
+    .body--educators div:nth-child(1) img {
+        position: absolute;
+        top: 15px;
+        left: 7px;
+        width: 30px;
+        height: 20px;
+    }
+    .body--educators div:nth-child(7) {
+        width: 50px;
+        height: 50px;
+        background: #009DE2;
+        border-radius: 50%;
+        position: relative;
+    }
+    .body--educators div:nth-child(7) img {
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        width: 30px;
+        height: 20px;
+    }
+    .body--educator1 p { 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .body--educator1 h2 { 
+        font-style: normal;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .body--training_selection-container {
+        height: 527px;
+        padding-top: 0;
+        margin-top: 60px;
+    }
+    .body--training_selection-title {
+        padding: 0px 24px 0px 24px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .body--training_selection-form {
+        display: block;
+        padding: 36px 24px 40px 24px;
+    }
+    .body--training_selection-form h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        max-width: 350px;
+    }
+    .body--training_selection-form-inputs {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .body--trainint_selection-img2 { 
+        top: 100px;
+        left: 350px;
+        width: 47px;
+        height: 47px;
+    }
+    .body--contacts-container {
+        margin-top: 160px;
+    }
+    .body--contacts-title {
+        padding: 0px 24px 0px 24px;
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .body--contacts-container img {
+        width: 100%;
+    }
+}
+

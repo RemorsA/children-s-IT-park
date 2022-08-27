@@ -1,0 +1,394 @@
+.my_courses--container { margin-top: 50px !important; }
+.my_courses--profile-container {
+    max-width: 408px;
+    display: flex;
+    align-items: center;
+}
+.my_courses--profile-avatar {
+    width: 156px;
+    height: 156px;
+    margin-right: 16px;
+}
+.my_courses--profile-info_user h3 {
+    color: #009DE2;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.my_courses--profile-info_user p { margin-bottom: 8px; }
+.my_courses--profile-info_user-title { display: flex; }
+.my_courses--profile-info_user-title img {
+    padding: 0px 0px 20px 13px;
+    cursor: pointer;
+}
+
+.my_courses--cards-container { margin-top: 50px; }
+.my_courses--cards-container h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 50px;
+}
+.my_courses--cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.my_courses--card {
+    overflow: hidden;
+    overflow-y: hidden;
+    width: 407px;
+    height: 450px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-bottom: 40px;
+}
+.my_courses--card-data-container {
+    padding: 30px 40px 30px 40px;
+}
+.my_courses--card-data-container h3 {
+    color: #009DE2;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+.my_courses--card-data-info {
+    margin-top: 15px;
+    display: flex;
+    grid-column-gap: 40px;
+}
+.my_courses--card-data-info p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #07031E;
+}
+.my_courses--card-data-progress_line {
+    margin-top: 51px;
+    width: 100%;
+    height: 4px;
+    background: #D9D9D9;
+    position: relative;
+}
+.my_courses--card-data-progress-percentage {
+    text-align: center;
+    color: #07031E;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 5px;
+}
+.my_courses--card-data-progress {
+    position: absolute;
+    background: #76B728;
+    width: 160px;
+    height: 4px;
+}
+.my_courses--card-data-about {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07031E;
+    overflow: scroll;
+    height: 80px;
+}
+.soon {
+    border: 2px solid #009DE2;
+    background: none;
+}
+.soon p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 185px 123px 184px 124px;
+    text-align: center;
+}
+
+
+
+.authorisation--container { margin-top: 50px !important; }
+.authorisation--title {
+    width: 677px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+}
+.authorisation--form-container { position: relative; }
+.authorisation--img1 {
+    position: absolute;
+    left: -310px;
+    top: 100px;
+    width: 215px;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+.authorisation--img1 img { height: 430px; }
+.authorisation--img2 {
+    position: absolute;
+    right: 200px;
+    bottom: -100px;
+}
+.authorisation--img3 {
+    position: absolute;
+    width: 426px;
+    right: -302px;
+    top: -150px;
+    filter: blur(10px);
+    overflow: hidden;
+}
+.authorisation--img3 img { height: 837px; }
+.authorisation--form {
+    margin: auto;
+    width: 400px;
+    margin-top: 80px !important;
+}
+.authorisation--form input { margin-bottom: 25px; }
+.authorisation--form-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.authorisation--form-forgot_password {
+    margin-top: 10px;
+    text-decoration:underline;
+    text-align: end;
+    cursor: pointer;
+}
+.authorisation--registration-form {
+    display: none;
+}
+
+
+.my_degrees--container {
+    margin-top: 50px;
+}
+.my_degrees--container h1 {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+}
+.my_degrees--img-container {
+    display: flex;
+    grid-column-gap: 40px;
+    overflow: scroll;
+}
+.my_degrees--img-container img {
+    height: 100%;
+    align-self: flex-end;
+}
+.my_degrees--nav-container {
+    margin-top: 60px;
+    text-align: center;
+}
+.my_degrees--nav-container input {
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+}
+
+.profession_card--container {
+    margin-top: 40px !important;
+}
+.breadcrumb {
+    margin-bottom: 18px;
+}
+/* .profession_card--data-container {
+
+} */
+.profession_card--data-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+    margin-bottom: 40px;
+}
+.profession_card--info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.profession_card--info-container h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+}
+.profession_card--info-btn-container {
+    display: flex;
+    grid-column-gap: 20px;
+}
+.profession_card--info-btn {
+    border: 2px solid #009DE2;
+    border-radius: 10px;
+    padding: 10px;
+}
+.profession_card--info-about_txt {
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.profession_card--info-line {
+    width: 250px;
+    height: 4px;
+    background: #D9D9D9;
+    position: relative;
+}
+.profession_card--info-line-progress_percentage {
+    position: absolute;
+    background: #76B728;
+    width: 125px;
+    height: 4px;
+}
+.profession_card--info-txt {
+    display: flex;
+    grid-column-gap: 20px;
+}
+.profession_card--info-txt p:nth-child(2){
+    max-width: 152px;
+}
+.profession_card--info-line-container {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+.demo_lesson--container {
+    margin: 120px 0px 150px 0px;
+}
+
+.profile--container {
+    margin-top: 50px !important;
+    display: flex;
+    justify-content: space-between;
+}
+.scores--container {
+    text-align: center;
+}
+.scores--container h1:nth-child(2) {
+    color: #009DE2;
+}
+.scores--container img {
+    margin-top: 16px;
+}
+.calendar--container {
+    margin-top: 50px !important;
+}
+.calendar {
+    margin-top: 50px !important;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    /* grid-column-gap: 150px; */
+    grid-row-gap: 0px;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .my_courses--container { 
+        padding: 0px 24px 0px 24px;
+    }
+    .my_courses--profile-info_user h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .my_courses--profile-info_user p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .my_courses--profile-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    .my_courses--profile-container {
+        align-items: flex-start;
+    }
+
+
+    .authorisation--container {
+        padding: 0px 24px 0px 24px;
+    }
+    .authorisation--title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        width: 183px;
+    }
+    .authorisation--registration-form {
+        display: block;
+        margin-top: 30px;
+    }
+    .authorisation--registration-form h1 {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .authorisation--img1 {
+        position: absolute;
+        left: 200px;
+        top: -220px;
+        width: 140px;
+        z-index: 1;
+    }
+    .authorisation--img1 img { height: 140px; }
+    .authorisation--img2 { display: none; }
+    .authorisation--img3 {
+        position: absolute;
+        left: 200px;
+        top: -240px;
+        width: 186px;
+    }
+    .authorisation--img3 img {
+        height: 186px;
+        transform: rotate(-130deg);
+    }
+
+    .my_degrees--container h1 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+    .profession_card--data-title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .profession_card--data-container img {
+        width: 100%;
+    }
+    .profession_card--data-container {
+        padding: 0px 24px 0px 24px;
+    }
+    .profession_card--info-container {
+        display: block !important;
+    }
+    .profession_card--info-btn-container {
+        margin-top: 30px;
+        grid-column-gap: 60px;
+    }
+    .profession_card--info-txt {
+        margin-top: 30px;
+        grid-column-gap: 55px;
+    }
+    .profession_card--info-line-container {
+        margin-top: 30px;
+    }
+    .profession_card--info-line {
+        width: 100%;
+    }
+    .demo_lesson--container {
+        padding: 0px 24px 0px 24px;
+        margin: 60px 0px 60px 0px;
+    }
+    .demo_lesson--container iframe {
+        width: 100%;
+    }
+}

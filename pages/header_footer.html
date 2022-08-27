@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/header_footer.css">
+    <link rel="stylesheet" href="/styles/reusable_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header_nav--container">
+        <div class="header container">
+            <img src="/assets/ico/logo.svg" alt="">
+            <p class="header--motto">Современное образование для детей<p>
+            <div class="header--feedback-container">
+                <div><a href="" class="header--feedback">It.Academy@tatar.ru</a></div>
+                <div><a href="" class="header--feedback">8 (843) 235 18 97</a></div>
+            </div>
+            <div class="header--auth-container">
+                <div><a href="" class="header--auth-txt">Войти</a></div>
+                <img src="/assets/ico/auth.svg" alt="">
+            </div>
+            <div class="header--auth-user" id='open_menu-user'>
+                <img src="/assets/img/i15.png" alt="">
+                <div class="header--auth-user-data">
+                    <h3>Мои курсы</h3>
+                    <h3>Расписание</h3>
+                    <h3>Сообщения</h3>
+                    <h3>Мои дипломы</h3>
+                    <hr>
+                    <p class="header--auth-user-info">it.junior@tatar.ru</p>
+                    <p class="header--auth-user-info">8 (843) 235 18 97</p>
+                    <div class="header--auth-user-info-container">
+                        <p>Войти</p>
+                        <img src="/assets/ico/auth.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header--mobile-container">
+            <div class="header--mobile-logo_burger-container">
+                <div>
+                    <img src="/assets/ico/logo.svg" alt="">
+                </div>
+                <div id="open_menu-mobile">
+                    <img src="/assets/ico/burger_menu.svg" alt="">
+                </div>
+            </div>
+            <div class="header--auth-menu-mobile">
+                <h3>Направления</h3>
+                <h3>Новости</h3>
+                <h3>Обучать</h3>
+                <h3>Календарь</h3>
+                <h3>Хочу в состав управления</h3>
+                <h3>О нас</h3>
+                <h3>Контакты</h3>
+                <hr>
+                <p>It.Academy@tatar.ru</p>
+                <p>8 (843) 235 18 97</p>
+                <p>Войти</p>
+            </div>
+        </div>
+
+        <div class="header--divide"></div>
+
+        <nav class="header_navigation--container container">
+            <a href="">Направления</a>
+            <a href="">Новости</a>
+            <a href="">Обучать</a>
+            <a href="">Календарь</a>
+            <a href="">Хочу в состав управления</a>
+            <a href="">О нас</a>
+            <a href="">Контакты</a>
+        </nav>
+
+        <div class="header--divide"></div>
+    </header>
+
+    <div style="
+        width: 100%;
+        height: 2px;
+        background: yellow;
+        margin: 120px 0px 120px 0px;
+    "></div>
+
+    <footer class="footer container">
+        <img src="/assets/ico/logo.svg" alt="">
+        <div class="footer--container-txt">
+            <div class="footer--about">
+                <p class="footer--title ac-open1">О нас</p>
+                <div class="footer--about-txt">
+                    <p>Современное образование для детей</p>
+                    <p>Хочу в состав управления</p>
+                </div>
+            </div>
+            <div class="footer--directions" id="accordion-item">
+                <p class="footer--title ac-open2">Направления</p>
+                <div class="footer--directions-txt">
+                    <div class="footer--directions-txt-1">
+                        <p>3D моделирование</p>
+                        <p>Цифровые медиа </p>
+                        <p>Предпринимательство</p>
+                        <p>Программирование</p>
+                        <p>AR/VR</p>
+                    </div>
+                    <div class="footer--directions-txt-2">
+                        <p>Аэрокосмическое направление</p>
+                        <p>Творчество Биомедицина</p>
+                        <p>Химическая лаборатория</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer--company">
+                <p class="footer--title ac-open3">Компания</p>
+                <div class="footer--company-txt">
+                    <p>Новости</p>
+                    <p>Обучать</p>
+                    <p>Календарь</p>
+                    <p>Преподаватели</p>
+                    <p>Подарочные сертификаты</p>
+                </div>
+            </div>
+            <div class="footer--contacts">
+                <p class="footer--title ac-open4">Контакты</p>
+                <div class="footer--contacts-txt">
+                    <p>ИТ-Парк, Петербургская, 52</p>
+                    <p>It.Academy@tatar.ru</p>
+                    <p>8 (843) 235 18 97</p>
+                    <div class="footer--contacts-social_links">
+                        <div>
+                            <img src="/assets/ico/vk.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="/assets/ico/telegram.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="/assets/ico/mail.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="trademark">© Детский ИТ-парк 2022</p>
+    </footer>
+</body>
+<script>
+    const menu = document.querySelector('#open_menu-mobile')
+    menu.addEventListener('click', function() {
+        document.querySelector('.header--auth-menu-mobile').classList.toggle('active')
+    })
+    const menu_user = document.querySelector('#open_menu-user')
+    menu_user.addEventListener('click', function() {
+        document.querySelector('.header--auth-user-data').classList.toggle('active')
+    })
+
+    const footer_accordion1 = document.querySelector('.ac-open1')
+    footer_accordion1.addEventListener('click', function() {
+        document.querySelector('.footer--about-txt').classList.toggle('active')
+    })
+    const footer_accordion2 = document.querySelector('.ac-open2')
+    footer_accordion2.addEventListener('click', function() {
+        document.querySelector('.footer--directions-txt').classList.toggle('active')
+    })
+    const footer_accordion3 = document.querySelector('.ac-open3')
+    footer_accordion3.addEventListener('click', function() {
+        document.querySelector('.footer--company-txt').classList.toggle('active')
+    })
+    const footer_accordion4 = document.querySelector('.ac-open4')
+    footer_accordion4.addEventListener('click', function() {
+        document.querySelector('.footer--contacts-txt').classList.toggle('active')
+    })
+</script>
+</html>
