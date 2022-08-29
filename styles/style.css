@@ -1,3 +1,194 @@
+/* reusable_styles */
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    body {
+        background: #07031E;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: #FFFFFF;
+    }
+
+    .mgt_50 { margin-top: 50px !important; }
+    .mgt_80 { margin-top: 80px !important; }
+    .mgt_120 { margin-top: 120px !important; }
+
+    .container {
+        max-width: 1299px;
+        margin: auto;
+    }
+    .margin_container {
+        margin-top: 50px !important;
+    }
+
+    .btn_blue {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        cursor: pointer;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        color: #FFFFFF;
+        background: #009DE2;
+        border: none;
+    }
+    .btn_blue-dark {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        cursor: pointer;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        color: #FFFFFF;
+        background: none;
+        border: 1px solid #009DE2;
+    }
+    .input {
+        display: block;
+        width: 100%;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        background: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 20px 0px 20px 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Montserrat Alternates';
+    }
+    .input::-webkit-input-placeholder { color: #FFFFFF; }
+
+    .backdrop_with_pattern {
+        background: url('/assets/ico/shapes-l.svg') no-repeat, url('/assets/ico/shapes-r.svg') no-repeat ;
+        background-position: left, right -100px;
+        height: 2766px;
+    }
+
+    .breadcrumb {
+        margin-bottom: 18px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 85px;
+    }
+
+    .cards--container {
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 39px;
+    }
+    .card--contaienr {
+        margin: 40px 0px 80px 0px;
+        max-width: 408px;
+    }
+    .card--image-container { position: relative; }
+    .card--image-container img { border-radius: 20px; }
+    .card--age {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .card--title {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .card--navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        align-items: center;
+        grid-column-gap: 93px;
+    }
+    .card--navigation-child1 {
+        max-width: 50%;
+    }
+    .card--navigation p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+    }
+
+    .title_content--buttons {
+        display: flex;
+        margin-top: 40px;
+        grid-column-gap: 30px;
+    }
+    .title_content--container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title_content {
+        max-width: 700px;
+    }
+    .title_content p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .title_content h1 {
+        margin-bottom: 40px;
+    }
+
+    .line {
+        width: 100%;
+        height: 2px;
+        background:#FFFFFF;
+        opacity: 0.2;
+    }
+
+/* other */
+    .information_about {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 40px 0px 50px 0px;
+    }
+    .information_about h3 {
+        color: #009DE2;
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .information_about p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 .my_courses--container { margin-top: 50px !important; }
 .my_courses--profile-container {
     max-width: 408px;
@@ -193,9 +384,7 @@
 .profession_card--container {
     margin-top: 40px !important;
 }
-.breadcrumb {
-    margin-bottom: 18px;
-}
+
 /* .profession_card--data-container {
 
 } */
@@ -277,15 +466,126 @@
     margin-top: 50px !important;
 }
 .calendar {
+    border: 2px solid #009DE2;
+    border-radius: 10px;
     margin-top: 50px !important;
     display: grid;
+}
+.calendar--days {
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    /* grid-column-gap: 150px; */
-    grid-row-gap: 0px;
+    text-align: center;
+    margin-left: 30px;
+}
+.calendar--days-day-start {
+    border-left: 2px solid #009DE2;
+    border-right: 2px solid #009DE2;
+    border-bottom: 2px solid #009DE2;
+    padding: 4px 0px 3px 0px;
+}
+.calendar--days-day {
+    border-right: 2px solid #009DE2;
+    border-bottom: 2px solid #009DE2;
+    padding: 4px 0px 3px 0px;
+}
+.calendar--days-day-end {
+    border-bottom: 2px solid #009DE2;
+    padding: 4px 0px 3px 0px;
+}
+.calendar--numbers { display: block; }
+.calendar--numbers-flex { display: flex; }
+.calendar--numbers p:nth-child(1) {
+    border-right: 2px solid #009DE2;
+    border-bottom: 2px solid #009DE2;
+    border-top: 2px solid #009DE2;
+    padding: 61px 12px 61px 12px;
+    max-width: 31px;
+}
+.calendar--numbers p:nth-child(2),
+.calendar--numbers p:nth-child(3),
+.calendar--numbers p:nth-child(4),
+.calendar--numbers p:nth-child(5),
+.calendar--numbers p:nth-child(6),
+.calendar--numbers p:nth-child(7) {
+    border-right: 2px solid #009DE2;
+    border-bottom: 2px solid #009DE2;
+    padding: 61px 12px 61px 12px;
+    max-width: 31px;
+}
+.calendar--numbers-data {
+    border-right: 2px solid #009DE2;
+    border-bottom: 2px solid #009DE2;
+    width: 180px;
+}
+.calendar--numbers-data-end {
+    border-right: 2px solid #009DE2;
+    width: 180px;
 }
 
+.entrepreneurship--container {
+    margin-top: 40px !important;
+    position: relative;
+}
+.entrepreneurship {
+    margin-top: 18px;
 
+}
+.entrepreneurship--cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.entrepreneurship h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+.entry--card-container { 
+    margin: 40px 0px 80px 0px;
+    max-width: 408px;
+}
+.entry--card-container-img { position: relative; }
+.entry--card-container-img img { border-radius: 20px; }
+.entry--card-title {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+.entry--card-age {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.entry--card-container-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    grid-column-gap: 93px;
+}
+.entry--card-container-nav p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+}
+.vector-img-l {
+    position: absolute;
+    left: 0;
+    top: 260px;
+}
+.vector-img-r {
+    position: absolute;
+    right: 0;
+    top: 160px;
+}
 
 @media screen and (max-width: 425px) {
     .my_courses--container { 
@@ -353,9 +653,6 @@
         line-height: 32px;
     }
 
-    .breadcrumb {
-        display: none;
-    }
     .profession_card--data-title {
         font-weight: 700;
         font-size: 26px;
@@ -389,6 +686,23 @@
         margin: 60px 0px 60px 0px;
     }
     .demo_lesson--container iframe {
+        width: 100%;
+    }
+    .entrepreneurship h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .entrepreneurship--container {
+        padding: 0px 24px 0px 24px;
+    }
+    .entry--card-container { 
+        max-width: 100%;
+    }
+    .entrepreneurship--cards {
+        display: block;
+    }
+    .entry--card-container-img img {
         width: 100%;
     }
 }

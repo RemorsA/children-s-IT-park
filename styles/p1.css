@@ -1,14 +1,4 @@
 .body--container { margin-top: 50px; }
-.vector-img-l {
-    position: absolute;
-    left: 0;
-    top: 260px;
-}
-.vector-img-r {
-    position: absolute;
-    right: 0;
-    top: 160px;
-}
 .body--data-container {  position: relative; }
 .data--img2 {
     position: absolute;

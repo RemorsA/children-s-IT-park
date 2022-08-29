@@ -1,0 +1,21 @@
+@media screen and (max-width: 425px) {
+    .padding_l_r--mobile {  padding: 0px 24px 0px 24px; }
+    .display_none--mobile { display: none; }
+    .backdrop_with_pattern { background: none; }
+    .card--image-container img { width: 100%; }
+    .title_content--container { display: block; }
+    .title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .title_content--big_image img {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .title_content p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

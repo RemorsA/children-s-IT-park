@@ -1,7 +1,8 @@
 
 @media screen and (max-width: 425px ) {
-    .vector-img-l { display: none !important; }
-    .vector-img-r { display: none !important; }
+    .backdrop_with_pattern {
+        background: none !important;
+    }
     .body--card-title-imgs { display: none !important; }
     .body--data-container { padding: 0px 24px 0px 24px }
     .body--slider-circle1 { display: none !important; }
