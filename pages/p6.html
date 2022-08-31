@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/reusable_styles.css">
+    <link rel="stylesheet" href="/styles/style_mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="profile--container container">
-        <div class="my_courses--profile-container">
+    <div class="user_profile--container container mgt_50 padding_l_r--mobile">
+        <div class="user_profile">
             <div>
-                <img src="/assets/img/i15.png" alt="" class="my_courses--profile-avatar">
+                <img src="/assets/img/i15.png" alt="" class="user_profile--avatar">
+                <p class="user_profile--score">500 балл.</p>
             </div>
-            <div class="my_courses--profile-info_user">
-                <div class="my_courses--profile-info_user-title">
+            <div class="user_profile--data">
+                <div class="user_profile--name-edit">
                     <h3>Марк Аврелий</h3>
                     <img src="/assets/ico/edit.svg" alt="">
                 </div>
@@ -35,54 +36,240 @@
         </div>
     </div>
 
-    <div class="calendar--container container">
-        <h1>Расписание</h1>
-        <p>11.08.2022 - 17.08.2022</p>
-        <div class="calendar">
-            <div class="calendar--days">
-                <p class="calendar--days-day-start">Пн</p>
-                <p class="calendar--days-day">Вт</p>
-                <p class="calendar--days-day">Ср</p>
-                <p class="calendar--days-day">Чт</p>
-                <p class="calendar--days-day">Пт</p>
-                <p class="calendar--days-day">Сб</p>
-                <p class="calendar--days-day-end">Вс</p>
-            </div>
-            <div class="calendar--numbers">
-                <div class="calendar--numbers-flex">
-                    <p>1</p>
-                    <div class="calendar--numbers-data">
-                        <p>11.08.2022</p>
+    <div class="container mgt_50 padding_l_r--mobile">
+        <h1 class="title">Расписание</h1>
+        <p class="table_date">11.08.2022 - 17.08.2022</p>
+
+        <table class="mgt_40 calendar">
+            <tr class="table_head">
+                <td>&nbsp;</td>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th>Вс</th>
+            </tr>
+
+            <tr class="table_body">
+                <th>1</th>
+                <th class="table_data" bgcolor="#5E4E9B" align="start">
+                    <p>11.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#5E4E9B" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+            <tr class="table_body">
+                <th>2</th>
+                <th class="table_data" bgcolor="#00953F" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th class="table_data" bgcolor="#5E4E9B" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#5E4E9B" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="table_body">
+                <th>3</th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#00953F" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="table_body">
+                <th>4</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#5E4E9B" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="table_body">
+                <th>5</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#00953F" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="table_body">
+                <th>6</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#5E4E9B" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+            </tr>
+            <tr class="table_body">
+                <th>7</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th class="table_data" bgcolor="#00953F" align="start">
+                    <p>17.08.2022</p>
+                    <p>1 урок курса “Промышленная робототехника”</p>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+                <th></th>
+            </tr>
+        </table>
+
+        <table class="calendar_mobile">
+
+            <tr><th class="table_head-mobile">Пн</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#5E4E9B">
+                    <div class="table_body-mobile-data">
                         <p>1 урок курса “Промышленная робототехника”</p>
-                        <p>10:00 - 12:00 МСК</p>
+                        <p>17.08.2022</p>
                     </div>
-                </div>
-                <div class="calendar--numbers-flex">
-                    <p>2</p>
-                    <div class="calendar--numbers-data">dwadaw</div>
-                </div>
-                <div class="calendar--numbers-flex">
-                    <p>3</p>
-                    <div class="calendar--numbers-data">dwawdea</div>
-                </div>
-                <div class="calendar--numbers-flex">
-                    <p>4</p>
-                    <div class="calendar--numbers-data">dwa</div>
-                </div>
-                <div class="calendar--numbers-flex">
-                    <p>5</p>
-                    <div class="calendar--numbers-data">daw</div>
-                </div>
-                <div class="calendar--numbers-flex">
-                    <p>6</p>
-                    <div class="calendar--numbers-data">daw</div>
-                </div>
-                <div class="calendar--numbers-flex">
-                    <p>7</p>
-                    <div class="calendar--numbers-data-end">daw</div>
-                </div>
-            </div>
-        </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#00953F">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+
+            <tr><th class="table_head-mobile">Вт</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#5E4E9B">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+
+            <tr><th class="table_head-mobile">Ср</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#00953F">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+            <tr><th class="table_head-mobile">Чт</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#5E4E9B">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+
+            <tr><th class="table_head-mobile">Пт</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#5E4E9B">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#00953F">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+
+            <tr><th class="table_head-mobile">Сб</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#5E4E9B">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#00953F">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+
+            <tr><th class="table_head-mobile">Вс</th></tr>
+            <tr>
+                <th class="table_body-mobile" bgcolor="#5E4E9B">
+                    <div class="table_body-mobile-data">
+                        <p>1 урок курса “Промышленная робототехника”</p>
+                        <p>17.08.2022</p>
+                    </div>
+                    <p>10:00 - 12:00 МСК</p>
+                </th>
+            </tr>
+        </table>
     </div>
+
 </body>
 </html>

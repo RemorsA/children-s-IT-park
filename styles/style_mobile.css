@@ -14,6 +14,10 @@
         ;
     }
     .card--image-container img { width: 100%; }
+    .card--soon { width: 377px; }
+    .card--contaienr {
+        margin: 0px 0px 30px 0px;
+    }
     .title_content--container { display: block; }
     .title {
         font-weight: 700;
@@ -29,6 +33,34 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .title_content--big_image-main {
+        background: 
+            url('/assets/ico/child.svg') no-repeat,
+            url('/assets/ico/circle pink.svg') no-repeat,
+            url('/assets/ico/circle orange.svg') no-repeat
+        ;
+        background-position: 
+            right 0 top 0,
+            right 0 top 0,
+            right 100px bottom 95px
+        ;
+        background-size: 143px, 49px, 60px;
+        height: 250px;
+        width: 200px;
+    }
+    .title_content--images {
+        display: none;
+    }
+    .title_content_main {
+        max-width: 183px;
+    }
+    .title_content--buttons {
+        margin-top: 100px !important;
+    }
+    .breadcrumb_child {
+        display: none;
+    }
+
 
     /* other */
     .information_about {
@@ -39,11 +71,13 @@
         grid-row-gap: 20px;
     }
 
+
     .benefits {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
     }
+
 
     .news {
         display: grid;
@@ -56,7 +90,65 @@
         margin-top: 40px;
     }
 
+
     .authorisation--form {
         width: 100%;
+    }
+
+
+    .calendar { display: none; }
+    .calendar_mobile { display: block; }
+
+
+    .user_profile--avatar {
+        width: 105px;
+        height: 105px;
+    }
+    .user_profile {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .user_profile--score {
+        display: block;
+        text-align: center;
+        margin-top: 14px;
+        color: #009DE2;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .user_profile--data {
+        margin: 0;
+    }
+    .scores--container {
+        display: none;
+    }
+
+
+    .messanger--email {
+        display: none;
+    }
+    .messanger_users {
+        width: 100%;
+    }
+
+
+    .news_list h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+
+    .page_selector--container {
+        width: 100%;
+    }
+    .page_selector--title {
+        display: none;
+    }
+    .page_selector--container p {
+        text-align: center;
+        width: 100px;
     }
 }

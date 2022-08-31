@@ -51,60 +51,6 @@
     font-size: 44px;
     line-height: 60px;
 }
-.body--entry-cards {
-    display: flex;
-    flex-wrap: wrap;
-    grid-column-gap: 39px;
-}
-.entry--card-container { margin: 40px 0px 80px 0px; }
-.entry--card-container-img { position: relative; }
-.entry--card-container-img img { border-radius: 20px; }
-.entry--card-title {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-}
-.entry--card-age {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-}
-.entry--card-container-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    align-items: center;
-    grid-column-gap: 93px;
-}
-.entry--card-container-nav p {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
-}
-.entry--card-soon {
-    width: 407px;
-    height: 250px;
-    border: 2px solid #009DE2;
-    border-radius: 10px;
-}
-.entry--card-soon p {
-    text-align: center;
-    margin: auto;
-    margin-top: 17%;
-    max-width: 150px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-}
 
 
 .body--slider-container {
@@ -363,12 +309,7 @@
     bottom: 150px;
 }
 
-.body--contacts-container {
-    margin-top: 0;
-}
-.body--contacts-container img {
-    width: 100%;
-}
+
 .body--contacts-title {
     margin-bottom: 30px !important;
     font-style: normal;
