@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container padding_l_r--mobile">
-        <div class="user_profile--container container mgt_50">
+        <div class="user_profile--container mgt_50">
             <div class="user_profile">
                 <div>
                     <img src="/assets/img/i15.png" alt="" class="user_profile--avatar">
@@ -32,23 +32,70 @@
         </div>
 
         <div class="mgt_50">
-            <h1 class="title">Мои дипломы</h1>
-            <div class="my_degrees--img-container mgt_50">
-                <img src="/assets/img/i17.png" alt="">
-                <img src="/assets/img/i18.png" alt="">
-                <img src="/assets/img/i17.png" alt="">
-                <img src="/assets/img/i18.png" alt="">
-                <img src="/assets/img/i17.png" alt="">
-                <img src="/assets/img/i18.png" alt="">
-            </div>
-            <div class="my_degrees--nav-container">
-                <img src="/assets/ico/arrow_left_s.svg" alt="">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-                <img src="/assets/ico/arrow_right_s.svg" alt="">
+            <h1 class="title">Преподаватели</h1>
+            <div class="slider-md mgt_40"> 
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <img src="/assets/img/i17.png" alt="" class="slider-item-md">
+                        <img src="/assets/img/i18.png" alt="" class="slider-item-md">
+                        <img src="/assets/img/i17.png" alt="" class="slider-item-md">
+                        <img src="/assets/img/i18.png" alt="" class="slider-item-md">
+                        <img src="/assets/img/i17.png" alt="" class="slider-item-md">
+                    </div>
+                </div>
+                <div class="slider-buttons">
+                    <img src="/assets/ico/arrow_left_s.svg" alt=""  class="btn-next-md">
+                    <label class="label">
+                        <input type="radio" class="checkbox">
+                        <span class="fake"></span>
+                    </label>
+                    <label class="label">
+                        <input type="radio" class="checkbox">
+                        <span class="fake"></span>
+                    </label>
+                    <label class="label">
+                        <input type="radio" class="checkbox">
+                        <span class="fake"></span>
+                    </label>
+                    <img src="/assets/ico/arrow_right_s.svg" alt=""  class="btn-prev-md">
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script>
+let position = 0
+let slidesToShow = 0
+console.log(window.outerWidth)
+if (window.outerWidth === 425) {
+    slidesToShow = 1
+} else {
+    slidesToShow = 3
+}
+const slidesToScroll = 1
+const container = document.querySelector('.slider-container')
+const track = document.querySelector('.slider-track')
+const items = document.querySelectorAll('.slider-item-md')
+const btnPrev = document.querySelector('.btn-prev-md')
+const btnNext = document.querySelector('.btn-next-md')
+const itemsCount = items.length
+const itemWidth = container.clientWidth / slidesToShow
+const movePosition = slidesToScroll * itemWidth
+items.forEach((x) => {
+    x.style.minWidth = `${itemWidth}px`
+})
+btnPrev.addEventListener('click', () => {
+    const itemsLeft = itemsCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth
+    position -= itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth
+    setPosition()
+})
+btnNext.addEventListener('click', () => {
+    const itemsLeft = Math.abs(position) / itemWidth
+    position += itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth
+    setPosition()
+})
+const setPosition = (e) => {
+    track.style.transform = `translateX(${position}px)`
+}
+</script>
 </html>

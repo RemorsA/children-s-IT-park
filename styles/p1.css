@@ -43,16 +43,6 @@
 }
 
 
-.body--entry_title-container {
-    padding-top: 170px;
-}
-.body--entry_title {
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
-}
-
-
 .body--slider-container {
     margin-top: 120px;
     position: relative;
@@ -175,87 +165,6 @@
     margin-top: 60px;
 }
 
-.body--educators-container {
-    margin-top: 120px;
-}
-.body--body--educators-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
-}
-.body--educators{
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 105px 0px 105px;
-}
-.body--educator1 {
-    text-align: center;
-    max-width: 300px;
-}
-.body--educator1 p { margin-top: 16px; }
-.body--educator1 img {
-    border-radius: 50%;
-    border: 10px solid #fcc200;
-}
-.body--educator2 {
-    text-align: center;
-    max-width: 300px;
-}
-.body--educator2 p { margin-top: 16px; }
-.body--educator2 img {
-    border-radius: 50%;
-    border: 10px solid #5e4e9b;
-}
-.body--educator3 {
-    text-align: center;
-    max-width: 300px;
-}
-.body--educator3 p { margin-top: 16px; }
-.body--educator3 img {
-    border-radius: 50%;
-    border: 10px solid #e4310e;
-}
-.body--educators div:nth-child(1) {
-    width: 100px;
-    height: 100px;
-    background: #76B82A;
-    border-radius: 50%;
-    position: relative;
-}
-.body--educators div:nth-child(1) img {
-    position: absolute;
-    top: 37px;
-    left: 40px;
-}
-.body--educators div:nth-child(3) {
-    width: 50px;
-    height: 50px;
-    background: #00953F;
-    opacity: 0.3;
-    border-radius: 50%;
-}
-.body--educators div:nth-child(5) {
-    width: 50px;
-    height: 50px;
-    background: #E4310E;
-    opacity: 0.3;
-    border-radius: 50%;
-}
-.body--educators div:nth-child(7) {
-    width: 100px;
-    height: 100px;
-    background: #009DE2;
-    border-radius: 50%;
-    position: relative;
-}
-.body--educators div:nth-child(7) img {
-    position: absolute;
-    top: 37px;
-    left: 45px;
-}
 
 .body--training_selection-container {
     background: url('/assets/img/i7.png') no-repeat;

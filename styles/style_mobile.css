@@ -151,4 +151,77 @@
         text-align: center;
         width: 100px;
     }
+
+
+    .fixed_ico--tg {
+        display: none;
+    }
+
+
+    .slider { width: 100%; }
+    .btn-prev { padding: 15px; }
+    .btn-prev svg {
+        width: 16px;
+        height: 8px;
+    }
+    .btn-next { padding: 15px; }
+    .btn-next svg {
+        width: 16px;
+        height: 8px;
+    }
+    .slider-empty-bounce { display: none; }
+    .slider-item img {
+        width: 134px;
+        height: 134px;
+    }
+    .slider-item h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        width: 200px;
+    }
+    .slider-item p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        width: 200px;
+    }
+
+
+    .authorisation--container {
+        padding: 0px 24px 0px 24px;
+    }
+    .authorisation--title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        width: 183px;
+    }
+    .authorisation--registration-form {
+        display: block;
+        margin-top: 30px;
+    }
+    .authorisation--registration-form h1 {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .authorisation--img1 {
+        position: absolute;
+        left: 200px;
+        top: -220px;
+        width: 140px;
+        z-index: 1;
+    }
+    .authorisation--img1 img { height: 140px; }
+    .authorisation--img2 { display: none; }
+    .authorisation--img3 {
+        position: absolute;
+        left: 200px;
+        top: -240px;
+        width: 186px;
+    }
+    .authorisation--img3 img {
+        height: 186px;
+        transform: rotate(-130deg);
+    }
 }

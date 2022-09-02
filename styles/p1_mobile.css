@@ -26,10 +26,6 @@
     .body--trainint_selection-img4 { display: none !important; }
     .body--trainint_selection-img5 { display: none !important; }
 
-    .body--entry_title-container {
-        padding: 0px 24px 0px 24px;
-        margin-top: 60px !important;
-    }
     .body--data-title h1 {
         font-style: normal;
         font-weight: 900;

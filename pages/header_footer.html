@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles/header_footer.css">
-    <link rel="stylesheet" href="/styles/reusable_styles.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
@@ -44,12 +44,8 @@
 
         <div class="header--mobile-container">
             <div class="header--mobile-logo_burger-container">
-                <div>
-                    <img src="/assets/ico/logo.svg" alt="">
-                </div>
-                <div id="open_menu-mobile">
-                    <img src="/assets/ico/burger_menu.svg" alt="">
-                </div>
+                <img src="/assets/ico/logo.svg" alt="">
+                <div id="open_menu-mobile" class="header-mobile-menu_burger"></div>
             </div>
             <div class="header--auth-menu-mobile">
                 <h3>Направления</h3>
@@ -59,6 +55,11 @@
                 <h3>Хочу в состав управления</h3>
                 <h3>О нас</h3>
                 <h3>Контакты</h3>
+                <hr>
+                <h3 class="mgt_24">Мои курсы</h3>
+                <h3>Расписание</h3>
+                <h3>Сообщения</h3>
+                <h3>Мои дипломы</h3>
                 <hr>
                 <p>It.Academy@tatar.ru</p>
                 <p>8 (843) 235 18 97</p>
@@ -81,12 +82,7 @@
         <div class="header--divide"></div>
     </header>
 
-    <div style="
-        width: 100%;
-        height: 2px;
-        background: yellow;
-        margin: 120px 0px 120px 0px;
-    "></div>
+
 
     <footer class="footer container">
         <img src="/assets/ico/logo.svg" alt="">
@@ -128,8 +124,8 @@
             <div class="footer--contacts">
                 <p class="footer--title ac-open4">Контакты</p>
                 <div class="footer--contacts-txt">
-                    <p>ИТ-Парк, Петербургская, 52</p>
-                    <p>It.Academy@tatar.ru</p>
+                    <p>ИТ-Парк, Спартаковская, 2</p>
+                    <p>it.junior@tatar.ru</p>
                     <p>8 (843) 235 18 97</p>
                     <div class="footer--contacts-social_links">
                         <div>
@@ -152,6 +148,7 @@
     const menu = document.querySelector('#open_menu-mobile')
     menu.addEventListener('click', function() {
         document.querySelector('.header--auth-menu-mobile').classList.toggle('active')
+        document.querySelector('.header-mobile-menu_burger').classList.toggle('active')
     })
     const menu_user = document.querySelector('#open_menu-user')
     menu_user.addEventListener('click', function() {
