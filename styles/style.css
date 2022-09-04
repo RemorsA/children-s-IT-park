@@ -437,6 +437,32 @@
     .user_profile--score {
         display: none;
     }
+    .user_profile-avatar-container {
+        position: relative;
+        transition: .2s;
+        cursor: pointer;
+    }
+    .user_prfile-change_avatar {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: .2s;
+    }
+    .user_prfile-change_avatar img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .user_profile-avatar-container:hover .user_prfile-change_avatar {
+        opacity: 1;
+        background: linear-gradient(0deg, rgba(0, 157, 226, 0.7), rgba(0, 157, 226, 0.7));
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
 
 
     .messanger_users--container {
@@ -589,7 +615,7 @@
     .fixed_ico--tg {
         position: fixed;
         right: 300px;
-        top: 700px;
+        top: 550px;
         z-index: 2;
         cursor: pointer;
     }
@@ -684,7 +710,6 @@
     .si-ch3 { border: 10px solid #5E4E9B; }
     .si-ch4 { border: 10px solid #E4310E; }
     .si-ch5 { border: 10px solid #009DE2; }
-
     .slider-empty-bounce {
         width: 50px;
         height: 50px;
@@ -869,6 +894,17 @@
         opacity: 1;
     }
 
+
+
+
+
+
+
+
+
+
+
+
 .entrepreneurship--container {
     margin-top: 40px !important;
     position: relative;
@@ -994,4 +1030,48 @@
     .entry--card-container-img img {
         width: 100%;
     }
+}
+
+
+.title_content_main-container {
+    display: flex;
+    justify-content: space-between;
+}
+.title_content_main-title {
+    max-width: 400px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 85px;
+}
+.title_content_main-mini_cards {
+    display: flex;
+    grid-column-gap: 20px;
+}
+.title_content_main-mini_cards img {
+    border: 2px solid #009DE2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title_content_main-mini_cards img:nth-child(2),
+.title_content_main-mini_cards img:nth-child(3) {
+    opacity: 0.3;
+}
+.title_content_main-buttons {
+    display: flex;
+    grid-column-gap: 30px;
+}
+.title_content_main-big_image {
+    width: 629px;
+    height: 596px;
+    background: 
+        url('/assets/ico/child.svg') no-repeat,
+        url('/assets/ico/circle pink.svg') no-repeat,
+        url('/assets/ico/circle orange.svg') no-repeat
+    ;
+    background-size: 529px, 136px, 271px;
+    background-position: 
+        right,
+        top 40px right 0,
+        left 0 bottom 0
+    ;
 }

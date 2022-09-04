@@ -224,4 +224,36 @@
         height: 186px;
         transform: rotate(-130deg);
     }
+
+
+    .title_content_main-title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        max-width: 200px;
+    }
+    .title_content_main-mini_cards {
+        display: none;
+    }
+    .title_content_main-big_image {
+        width: 200px;
+        height: 200px;
+        background: 
+            url('/assets/ico/child.svg') no-repeat,
+            url('/assets/ico/circle pink.svg') no-repeat,
+            url('/assets/ico/circle orange.svg') no-repeat
+        ;
+        background-size: 143px, 49px, 60px;
+        background-position: 
+            right 0 top 0,
+            top 0 right 0,
+            left 30px bottom 50px
+        ;
+    }
+    .title_content_main {
+        margin-top: 30px !important;
+    }
+    .title_content_main-buttons  {
+        width: 370px;
+    }
 }
